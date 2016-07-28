@@ -1,0 +1,9 @@
+12;
+AFFICHER(12);
+AFFICHER(12 + 8);
+x = 0;
+SI x == 0 ALORS AFFICHER(1); SINON AFFICHER(0); FIN;
+fm1 = 1;
+fm2 = 1;
+tmp = 0;
+TANTQUE x < 20 FAIRE x = x + 1; ftmp = fm1 + fm2; fm2 = fm1; fm1 = ftmp; AFFICHER(ftmp); FIN;
